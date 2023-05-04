@@ -1,0 +1,21 @@
+.cards__container {
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 30px 20px;
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    width: 120px;
+    position: absolute;
+}
+
+.card img:nth-child(1) {
+    bottom: 0;
+    right: 0;
+}
